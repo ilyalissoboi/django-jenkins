@@ -5,7 +5,9 @@ from io import BytesIO
 
 # Use pep8 from flake8 to avoid weird errors resulting from
 # version mismatch.
-from flake8 import pep8
+#from flake8 import pep8
+# changed back to avoid import errors
+import pep8
 
 from django_jenkins.tasks import (
     BaseTask,
